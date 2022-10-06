@@ -1,12 +1,16 @@
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { AnimatedSwitch } from 'react-router-transition';
+
 import AppRoute from './route/AppRoute';
 
 function App() {
   return (
     <>
-        <BrowserRouter>
-            <AppRoute />
-        </BrowserRouter>
+        <Router>
+            <AnimatedSwitch>
+                <AppRoute />
+            </AnimatedSwitch>
+        </Router>
     </>
   );
 }
