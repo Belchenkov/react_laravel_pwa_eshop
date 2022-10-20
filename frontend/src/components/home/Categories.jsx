@@ -3,13 +3,11 @@ import { Col, Container, Row, Card } from 'react-bootstrap';
 const Categories = () => {
     return (
         <>
-            <Container>
-                <Container className='text-center' fluid={true}>
-                    <div className='section-title text-center mb-55'>
-                        <h2>CATEGORIES</h2>
-                        <p>Some of our exclusive collection, you may like</p>
-                    </div>
-                </Container>
+            <Container className='text-center' fluid={true}>
+                <div className='section-title text-center mb-55'>
+                    <h2>CATEGORIES</h2>
+                    <p>Some of our exclusive collection, you may like</p>
+                </div>
                 <Row>
                     <Col xl={6} lg={6} md={2} sm={12} xs={12} key={1}>
                         <Row>
