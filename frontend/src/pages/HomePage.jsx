@@ -1,11 +1,13 @@
 import FeaturedProducts from '../components/home/FeaturedProducts';
 import Categories from '../components/home/Categories';
 import Collection from '../components/home/Collection';
+import NewArrival from '../components/home/NewArrival';
 
 const HomePage = () => {
     return (
         <>
-           <FeaturedProducts />
+            <FeaturedProducts />
+            <NewArrival />
             <Collection />
             <Categories />
         </>
